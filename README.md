@@ -40,7 +40,7 @@
 
     `line19: test_data_dir = ''`
   
-    `line36-41: test_*net_path = ''`
+    `line36-41: pre_trained_*net_path = ''`
 
 3. Run `python *net.py`
 
