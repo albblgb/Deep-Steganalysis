@@ -49,4 +49,4 @@
  
 ## Others
 - If you find our code useful for your research, please give us a star.
-
+- We don't adopt the default settings from the literature. Instead, all stegeanalysis networks are optimized using Adam slover with a weight decay of 1e-5 and an initial learning rate of 2e-4.
