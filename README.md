@@ -12,7 +12,7 @@
 - Python 3.8.13, PyTorch = 1.11.0
 - Run the following commands in your terminal:
 
-  `conda env create  -f env.yml`
+  `conda env create -f env.yml`
 
    `conda activate NIPS`
 
