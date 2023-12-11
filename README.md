@@ -44,8 +44,8 @@
 
 3. Run `python *net.py`
 
-- The secret and stego-models will be saved in 'checkpoint/'
-- The results will be saved in 'results/'
+- The trained steganalysis networks will be saved in 'checkpoint/'
+- The results and running logs will be saved in 'results/'
  
 ## Others
 - If you find our code useful for your research, please give me a star.
