@@ -21,7 +21,7 @@
 #### Training
 1. Change the code in `config.py`
 
-    `line4:  mode = 'train'`
+    `line4: mode = 'train'`
    
     `line17: train_data_dir = ''`
    
@@ -31,45 +31,22 @@
    
     `line21: stego_img_channel = `
 
-3. Run `python *net.py`, for example, `python srnet.py`
+3. Run `python *net.py`. For example, `python srnet.py`
 
 #### Testing
 1. Change the code in `config.py`
 
-    `line4:  mode = 'test' `
+    `line4: mode = 'test' `
+
+    `line19: test_data_dir = ''`
   
-    `line36-41:  test_*net_path = '' `
+    `line36-41: test_*net_path = ''`
 
-2. Run `python *net.py`
+3. Run `python *net.py`
 
-- Here we provide [trained models](https://drive.google.com/drive/folders/1lM9ED7uzWYeznXSWKg4mgf7Xc7wjjm8Q?usp=sharing).
-- The processed images, such as stego image and recovered secret image, will be saved at 'results/images'
-- The training or testing log will be saved at 'results/*.log'
-
-
-## Dataset
-- The models are trained on the [DIV2K](https://opendatalab.com/DIV2K) training dataset, and the mini-batch size is set to 8, with half of the images randomly selected as the cover images and the remaining images as the secret images. 
-- The trained models are tested on three test sets, including the DIV2K test dataset, 1000 images randomly selected from the ImageNet test dataset
-- Here we provide [test sets](https://drive.google.com/file/d/1NYVWZXe0AjxdI5vuI2gF6_2hwoS1c4y7/view?usp=sharing).
-
-- For train or test on the dataset,  e.g.  DIV2K, change the code in `config.py`:
-
-    `line17:  data_dir = '' `
-  
-    `data_name_train = 'div2k'`
-  
-    `data_name_test = 'div2k'`
-  
-    `line30:  suffix = 'png' `
-
-- Structure of the dataset directory:
-
-<center>
-  <img src=https://github.com/albblgb/pusnet/blob/main/utils/dataset_folder_structure.png width=36% />
-</center>
+- The secret and stego-models will be saved in 'checkpoint/'
+- The results will be saved in 'results/'
  
-    
 ## Others
-- The `batch_size` in `config.py` should be at least `2*number of gpus` and it should be divisible by number of gpus.
-- The network-generated images are quantified before the evaluation. 
+- If you find our code useful for your research, please give me a star.
 
