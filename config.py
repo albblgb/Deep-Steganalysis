@@ -14,8 +14,6 @@ save_freq = 2
 val_freq = 2
 strat_save_epoch = 2
 
-
-
 train_data_dir = ''
 val_data_dir = '' 
 test_data_dir = '' 
