@@ -14,12 +14,13 @@ save_freq = 2
 val_freq = 2
 strat_save_epoch = 2
 
-stego_img_height = 512 # stego_img_height == stego_img_width
-stego_img_channel = 3 # 
+
 
 train_data_dir = ''
 val_data_dir = '' 
 test_data_dir = '' 
+stego_img_height = 512 # stego_img_height == stego_img_width 
+stego_img_channel = 3 # 
 '''
 Dataset structure      
 train_data_dir/       |     val_data_dir/        |      the structure of test_data_dir/ is the same as that of train_data_dir and val_data_dir
