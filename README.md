@@ -21,9 +21,17 @@
 #### Training
 1. Change the code in `config.py`
 
-    `line4:  mode = 'train' ` 
+    `line4:  mode = 'train'`
+   
+    `line17: train_data_dir = ''`
+   
+    `line18: val_data_dir = ''`
 
-2. Run `python *net.py`, for example, `python wengnet.py`
+    `line20: stego_img_height = `
+   
+    `line21: stego_img_channel = `
+
+3. Run `python *net.py`, for example, `python srnet.py`
 
 #### Testing
 1. Change the code in `config.py`
