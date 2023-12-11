@@ -48,5 +48,5 @@
 - The results and running logs will be saved in 'results/'
  
 ## Others
-- If you find our code useful for your research, please give me a star.
+- If you find our code useful for your research, please give us a star.
 
