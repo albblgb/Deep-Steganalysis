@@ -17,9 +17,9 @@ strat_save_epoch = 2
 stego_img_height = 512 # stego_img_height == stego_img_width
 stego_img_channel = 3
 
-train_data_dir = '/data/gbli/works/learned_steganography/cvpr_FixImgHiding_comparison/stegexpose_data/hinet/train/'
-val_data_dir = '/data/gbli/works/learned_steganography/cvpr_FixImgHiding_comparison/stegexpose_data/hinet/test/' 
-test_data_dir = '/data/gbli/works/learned_steganography/cvpr_FixImgHiding_comparison/stegexpose_data/hinet/test/' 
+train_data_dir = ''
+val_data_dir = '' 
+test_data_dir = '' 
 '''
 Dataset structure      
 train_data_dir/       |     val_data_dir/        |      the structure of test_data_dir/ is the same as that of train_data_dir and val_data_dir
