@@ -15,7 +15,7 @@ val_freq = 2
 strat_save_epoch = 2
 
 stego_img_height = 512 # stego_img_height == stego_img_width
-stego_img_channel = 3
+stego_img_channel = 3 # 
 
 train_data_dir = ''
 val_data_dir = '' 
