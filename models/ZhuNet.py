@@ -146,7 +146,7 @@ class conv_Layer(nn.Module):
             Basic_Block(64, 128, 3, 1, 1, True)
         )
 
-        batch_size = c.train_batch_size if c.mode == 'train' else c.test_batch_size
+        batch_size = c.train_batch_size if c.mode == 'train' else c.test_batch_size // 2
         self.spp = spp_layer(batch_size)#这里
 
         self.classfier = nn.Sequential(
